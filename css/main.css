@@ -1,0 +1,17 @@
+* {
+    font-family: Trirong,sans-serif;
+}
+body {
+    background-color: grey;
+}
+.img {
+    width: 40%;
+    margin: 0 auto;
+    opacity: 1;
+ }
+header {
+    background-image: url(../img/jumbo-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.8;
+}
