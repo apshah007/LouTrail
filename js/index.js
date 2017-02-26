@@ -132,3 +132,34 @@ function findRandomRestaurant(resto) {
 
     return output;
 };
+/*
+function getFilteredRestaurants() {
+    var flavors = document.getElementById('flavor-list').value;
+
+    var filteredRestaurants = [];
+    for (var i = 0; i<9; i++){
+                    alert(i);
+        if(restaurants[i].flavor == flavors){
+            filteredRestaurants[i] = restaurants[i];
+            alert(filteredRestaurants[i]);
+        }
+    }
+        
+    var listitem1 = document.createElement("LI");
+    var listitem2 = document.createElement("LI");
+    var listitem3 = document.createElement("LI");
+    var entry1 = document.createTextNode(filteredRestaurants[0].flavor);
+    var entry2 = document.createTextNode(filteredRestaurants[1].flavor);
+    var entry3 = document.createTextNode(filteredRestaurants[2].flavor);
+
+    listitem1.appendChild(entry1);
+    document.getElementById('restaurant-list').appendChild(listitem1);
+    listitem2.appendChild(entry2);
+    document.getElementById('restaurant-list').appendChild(listitem2);
+    listitem3.appendChild(entry3);
+    document.getElementById('restaurant-list').appendChild(listitem3);    
+    document.close();
+
+    }
+};
+*/
