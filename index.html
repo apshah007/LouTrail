@@ -8,9 +8,10 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js"></script>
 </head>
 
-<body>
+<body onload="getRandomQuote()" >
     <div class="container">
         <header id="header">
             <div class="text-right">
@@ -22,17 +23,44 @@
             </div>
         </header>
         <div class="jumbotron">
-            <div>
-                <h3>Proudly Sponsored by the following (plus more!)</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a mattis magna, ac blandit leo. Integer placerat metus sit amet congue porttitor.</p>
-                <p>Ranom logo 1</p>
+            <div id="quotediv">
+                <p id="quote"></p>
             </div>
+            <div>
+                <h2>Looking for Some Grub?</h2>
+                <input type="button" class="btn lg-btn btn-default" value="Suprise Me!" onclick="getRandomRestaurants()"/>
+            </div>
+            <br>
+            <div>
+                <form>
+         <!--           <input list="flavors" id="flavor-list"/>
+                    <datalist id="flavors">
+                        <option value="Hispanic" />
+                        <option value="American" />
+                        <option value="Italian" />
+                        <option value="Asian" />
+                        <option value="Pizza" />
+                    </datalist>
+                    <input type="button" value="I want some of this!" onclick="getFilteredRestaurants()"/>
+                    -->
+                </form>
+            </div>
+            <br>
+            <a href="./img/Restaurant template page.png">
+            <div>
+                <ul id="restaurant-list">
+                </ul>
+            </div>
+            </a>
+            <br>
         </div>
         <footer class="jumbotron text-center">
             <div>
-                <h4>DerbyHacks 2017</h4></div>
+                <h4>DerbyHacks 2017</h4>
+            </div>
             <div>
-                <h4>Team LouTrail</h4></div>
+                <h4>Team LouTrail</h4>
+            </div>
         </footer>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap/bootstrap.js"></script>

@@ -15,3 +15,15 @@ header {
     background-size: cover;
     opacity:0.8;
 }
+#quotediv {
+    margin-left: 3%;
+    margin-right: 3%;   
+    padding-bottom: 1%;
+    
+}
+#quotediv p{
+    color: black;
+    text-align: center;
+    font-size: 135%;
+    font-style: italic;
+}
